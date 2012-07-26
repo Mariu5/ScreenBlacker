@@ -12,7 +12,7 @@ Screen Blacker requires Mac OS 10.6 or later.
 
 You can download a pre-built copy of Screen Blacker here:
 
-[http://figure53.com/downloads/ScreenBlacker.zip](http://figure53.com/downloads/ScreenBlacker.zip)
+[https://github.com/downloads/Figure53/ScreenBlacker/ScreenBlacker.zip](https://github.com/downloads/Figure53/ScreenBlacker/ScreenBlacker.zip)
 
 ## Usage
 
