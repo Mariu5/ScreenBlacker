@@ -63,11 +63,11 @@
     CFDictionaryRef infoDict = IODisplayCreateInfoDictionary(displayPort, kIODisplayOnlyPreferredName);
     CFDictionaryRef nameDict = CFDictionaryGetValue(infoDict, CFSTR(kDisplayProductName));
     if (nameDict == NULL)
-        return [NSString stringWithString:@"Unnamed"];
+        return @"Unnamed";
     CFIndex count = CFDictionaryGetCount(nameDict);
     
     if (count == 0) {
-        displayName = [NSString stringWithString:@"Unnamed"];
+        displayName = @"Unnamed";
     } else {
         CFStringRef *keys =   (CFStringRef *)malloc(count * sizeof(CFStringRef *));
         CFStringRef *values = (CFStringRef *)malloc(count * sizeof(CFStringRef *));

@@ -90,7 +90,7 @@
     NSError *error = nil;
     for ( NSNumber *screenID in [_originalURLs allKeys] )
     {
-        NSScreen *screen = [NSScreen screenWithDisplayID:[screenID integerValue]];
+        NSScreen *screen = [NSScreen screenWithDisplayID:(CGDirectDisplayID)[screenID integerValue]];
         if ( screen )
         {
             [[NSWorkspace sharedWorkspace] setDesktopImageURL:[_originalURLs objectForKey:screenID] forScreen:screen options:[_originalOptions objectForKey:screenID] error:&error];
