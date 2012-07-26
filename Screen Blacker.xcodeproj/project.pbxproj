@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4031C4A415655DE000B18135 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4031C4A215655DE000B18135 /* InfoPlist.strings */; };
+		4031C4A615655DE000B18135 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4031C4A515655DE000B18135 /* main.m */; };
+		4031C4AA15655DE000B18135 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4031C4A815655DE000B18135 /* Credits.rtf */; };
+		4031C4AD15655DE000B18135 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4031C4AC15655DE000B18135 /* AppDelegate.m */; };
+		4031C4B015655DE000B18135 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4031C4AE15655DE000B18135 /* MainMenu.xib */; };
+		4031C4B715655F8400B18135 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = 4031C4B615655F8400B18135 /* black.png */; };
+		4031C4BA1565611F00B18135 /* F53NSScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4031C4B91565611F00B18135 /* F53NSScreen.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		409F04341565F912008C29DF /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409F042F1565F912008C29DF /* AppKit.framework */; };
+		409F04351565F912008C29DF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409F04301565F912008C29DF /* Cocoa.framework */; };
+		409F04361565F912008C29DF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409F04311565F912008C29DF /* CoreData.framework */; };
+		409F04371565F912008C29DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409F04321565F912008C29DF /* Foundation.framework */; };
+		409F04381565F912008C29DF /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409F04331565F912008C29DF /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4031C49515655DE000B18135 /* Screen Blacker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Screen Blacker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4031C4A115655DE000B18135 /* Screen Blacker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Screen Blacker-Info.plist"; sourceTree = "<group>"; };
+		4031C4A315655DE000B18135 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4031C4A515655DE000B18135 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4031C4A715655DE000B18135 /* Screen Blacker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Screen Blacker-Prefix.pch"; sourceTree = "<group>"; };
+		4031C4A915655DE000B18135 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4031C4AB15655DE000B18135 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4031C4AC15655DE000B18135 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4031C4AF15655DE000B18135 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4031C4B615655F8400B18135 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
+		4031C4B81565611F00B18135 /* F53NSScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53NSScreen.h; sourceTree = "<group>"; };
+		4031C4B91565611F00B18135 /* F53NSScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53NSScreen.m; sourceTree = "<group>"; };
+		409F042F1565F912008C29DF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		409F04301565F912008C29DF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		409F04311565F912008C29DF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		409F04321565F912008C29DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		409F04331565F912008C29DF /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4031C49215655DE000B18135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409F04341565F912008C29DF /* AppKit.framework in Frameworks */,
+				409F04351565F912008C29DF /* Cocoa.framework in Frameworks */,
+				409F04361565F912008C29DF /* CoreData.framework in Frameworks */,
+				409F04371565F912008C29DF /* Foundation.framework in Frameworks */,
+				409F04381565F912008C29DF /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4031C48A15655DE000B18135 = {
+			isa = PBXGroup;
+			children = (
+				4031C49F15655DE000B18135 /* Screen Blacker */,
+				4031C49815655DE000B18135 /* Frameworks */,
+				4031C49615655DE000B18135 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4031C49615655DE000B18135 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4031C49515655DE000B18135 /* Screen Blacker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4031C49815655DE000B18135 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				409F042F1565F912008C29DF /* AppKit.framework */,
+				409F04301565F912008C29DF /* Cocoa.framework */,
+				409F04311565F912008C29DF /* CoreData.framework */,
+				409F04321565F912008C29DF /* Foundation.framework */,
+				409F04331565F912008C29DF /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4031C49F15655DE000B18135 /* Screen Blacker */ = {
+			isa = PBXGroup;
+			children = (
+				4031C4AB15655DE000B18135 /* AppDelegate.h */,
+				4031C4AC15655DE000B18135 /* AppDelegate.m */,
+				4031C4B81565611F00B18135 /* F53NSScreen.h */,
+				4031C4B91565611F00B18135 /* F53NSScreen.m */,
+				4031C4AE15655DE000B18135 /* MainMenu.xib */,
+				4031C4A015655DE000B18135 /* Supporting Files */,
+			);
+			path = "Screen Blacker";
+			sourceTree = "<group>";
+		};
+		4031C4A015655DE000B18135 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4031C4B615655F8400B18135 /* black.png */,
+				4031C4A115655DE000B18135 /* Screen Blacker-Info.plist */,
+				4031C4A215655DE000B18135 /* InfoPlist.strings */,
+				4031C4A515655DE000B18135 /* main.m */,
+				4031C4A715655DE000B18135 /* Screen Blacker-Prefix.pch */,
+				4031C4A815655DE000B18135 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4031C49415655DE000B18135 /* Screen Blacker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4031C4B315655DE000B18135 /* Build configuration list for PBXNativeTarget "Screen Blacker" */;
+			buildPhases = (
+				4031C49115655DE000B18135 /* Sources */,
+				4031C49215655DE000B18135 /* Frameworks */,
+				4031C49315655DE000B18135 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Screen Blacker";
+			productName = "Screen Blacker";
+			productReference = 4031C49515655DE000B18135 /* Screen Blacker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4031C48C15655DE000B18135 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Figure 53";
+			};
+			buildConfigurationList = 4031C48F15655DE000B18135 /* Build configuration list for PBXProject "Screen Blacker" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4031C48A15655DE000B18135;
+			productRefGroup = 4031C49615655DE000B18135 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4031C49415655DE000B18135 /* Screen Blacker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4031C49315655DE000B18135 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4031C4A415655DE000B18135 /* InfoPlist.strings in Resources */,
+				4031C4AA15655DE000B18135 /* Credits.rtf in Resources */,
+				4031C4B015655DE000B18135 /* MainMenu.xib in Resources */,
+				4031C4B715655F8400B18135 /* black.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4031C49115655DE000B18135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4031C4A615655DE000B18135 /* main.m in Sources */,
+				4031C4AD15655DE000B18135 /* AppDelegate.m in Sources */,
+				4031C4BA1565611F00B18135 /* F53NSScreen.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4031C4A215655DE000B18135 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4031C4A315655DE000B18135 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4031C4A815655DE000B18135 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4031C4A915655DE000B18135 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4031C4AE15655DE000B18135 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4031C4AF15655DE000B18135 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4031C4B115655DE000B18135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		4031C4B215655DE000B18135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		4031C4B415655DE000B18135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Screen Blacker/Screen Blacker-Prefix.pch";
+				INFOPLIST_FILE = "Screen Blacker/Screen Blacker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4031C4B515655DE000B18135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Screen Blacker/Screen Blacker-Prefix.pch";
+				INFOPLIST_FILE = "Screen Blacker/Screen Blacker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4031C48F15655DE000B18135 /* Build configuration list for PBXProject "Screen Blacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4031C4B115655DE000B18135 /* Debug */,
+				4031C4B215655DE000B18135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4031C4B315655DE000B18135 /* Build configuration list for PBXNativeTarget "Screen Blacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4031C4B415655DE000B18135 /* Debug */,
+				4031C4B515655DE000B18135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4031C48C15655DE000B18135 /* Project object */;
+}
