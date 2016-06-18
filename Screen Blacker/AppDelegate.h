@@ -37,4 +37,6 @@
 
 @property (nonatomic, assign) BOOL black;
 
+@property (strong, nonatomic) NSStatusItem *statusItem;
+
 @end

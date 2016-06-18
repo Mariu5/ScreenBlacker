@@ -45,8 +45,9 @@
 
 - (void)setBlack:(BOOL)black
 {
+    _black = !_black;
     NSError *error = nil;
-    if ( black )
+    if ( _black )
     {
         _black = YES;
         [self _saveBackgroundImages];
@@ -74,6 +75,14 @@
 {
 	_originalURLs = [[NSMutableDictionary alloc] init];
 	_originalOptions = [[NSMutableDictionary alloc] init];
+    
+    self.statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
+    _statusItem.image = [NSImage imageNamed:@"switch-off.png"];
+    [_statusItem.image setTemplate:YES];
+    
+    _statusItem.highlightMode = NO;
+    
+    [_statusItem setAction:@selector(setBlack:)];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)notification
@@ -102,6 +111,7 @@
         [_originalURLs setObject:url forKey:[NSNumber numberWithInteger:[screen displayID]]];
         [_originalOptions setObject:options forKey:[NSNumber numberWithInteger:[screen displayID]]];
     }
+    _statusItem.image = [NSImage imageNamed:@"switch-on.png"];
 }
 
 - (void)_restoreBackgroundImages
@@ -117,6 +127,7 @@
                 NSLog( @"Error restoring background image from %@ on screen %@", [_originalURLs objectForKey:screenID], screen );
         }
     }
+    _statusItem.image = [NSImage imageNamed:@"switch-off.png"];
 }
 
 @end
