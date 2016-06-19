@@ -18,3 +18,7 @@ You can download a pre-built copy of Screen Blacker here:
 
 Click the button.
 
+
+## Credit
+
+Icon made by [Madebyoliver](http://www.flaticon.com/authors/madebyoliver) from [www.flaticon.com](http://www.flaticon.com) 
