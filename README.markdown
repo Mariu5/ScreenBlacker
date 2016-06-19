@@ -1,24 +1,13 @@
-# Welcome to Screen Blacker
+# Show Mode
 
-Screen Blacker is a tiny OS X utility to temporarily change your desktop background(s) to black.
-
-We built it to use with [QLab](http://figure53.com/qlab).
+Show Mode is a tiny OS X utility to temporarily change your desktop background(s) to black.
 
 ## Requirements
 
-Screen Blacker requires Mac OS 10.6 or later.
+Show Mode requires Mac OS 10.6 or later.
 
-## Download
+## Credits
 
-You can download a pre-built copy of Screen Blacker here:
-
-[https://github.com/downloads/Figure53/ScreenBlacker/ScreenBlacker.zip](https://github.com/downloads/Figure53/ScreenBlacker/ScreenBlacker.zip)
-
-## Usage
-
-Click the button.
-
-
-## Credit
+Show Mode based on Screen Blacker by [Figure 53](http://figure53.com)
 
 Icon made by [Madebyoliver](http://www.flaticon.com/authors/madebyoliver) from [www.flaticon.com](http://www.flaticon.com) 

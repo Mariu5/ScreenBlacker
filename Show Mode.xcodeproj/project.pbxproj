@@ -26,11 +26,11 @@
 
 /* Begin PBXFileReference section */
 		401F816D15C1C44500DC8309 /* ScreenBlacker.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ScreenBlacker.icns; sourceTree = "<group>"; };
-		4031C49515655DE000B18135 /* Screen Blacker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Screen Blacker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4031C4A115655DE000B18135 /* Screen Blacker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Screen Blacker-Info.plist"; sourceTree = "<group>"; };
+		4031C49515655DE000B18135 /* Show Mode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Show Mode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4031C4A115655DE000B18135 /* Show Mode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Show Mode-Info.plist"; sourceTree = "<group>"; };
 		4031C4A315655DE000B18135 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4031C4A515655DE000B18135 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4031C4A715655DE000B18135 /* Screen Blacker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Screen Blacker-Prefix.pch"; sourceTree = "<group>"; };
+		4031C4A715655DE000B18135 /* Show Mode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Show Mode-Prefix.pch"; sourceTree = "<group>"; };
 		4031C4A915655DE000B18135 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		4031C4AB15655DE000B18135 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4031C4AC15655DE000B18135 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 		4031C49615655DE000B18135 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4031C49515655DE000B18135 /* Screen Blacker.app */,
+				4031C49515655DE000B18135 /* Show Mode.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,12 +110,12 @@
 			children = (
 				401F816D15C1C44500DC8309 /* ScreenBlacker.icns */,
 				4031C4B615655F8400B18135 /* black.png */,
-				4031C4A115655DE000B18135 /* Screen Blacker-Info.plist */,
+				4031C4A115655DE000B18135 /* Show Mode-Info.plist */,
 				4031C4A215655DE000B18135 /* InfoPlist.strings */,
 				CAC4C5A41D15F722005F3F8C /* switch-off.png */,
 				CAC4C5A51D15F722005F3F8C /* switch-on.png */,
 				4031C4A515655DE000B18135 /* main.m */,
-				4031C4A715655DE000B18135 /* Screen Blacker-Prefix.pch */,
+				4031C4A715655DE000B18135 /* Show Mode-Prefix.pch */,
 				4031C4A815655DE000B18135 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -124,9 +124,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4031C49415655DE000B18135 /* Screen Blacker */ = {
+		4031C49415655DE000B18135 /* Show Mode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4031C4B315655DE000B18135 /* Build configuration list for PBXNativeTarget "Screen Blacker" */;
+			buildConfigurationList = 4031C4B315655DE000B18135 /* Build configuration list for PBXNativeTarget "Show Mode" */;
 			buildPhases = (
 				4031C49115655DE000B18135 /* Sources */,
 				4031C49215655DE000B18135 /* Frameworks */,
@@ -136,9 +136,9 @@
 			);
 			dependencies = (
 			);
-			name = "Screen Blacker";
+			name = "Show Mode";
 			productName = "Screen Blacker";
-			productReference = 4031C49515655DE000B18135 /* Screen Blacker.app */;
+			productReference = 4031C49515655DE000B18135 /* Show Mode.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -150,7 +150,7 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Figure 53";
 			};
-			buildConfigurationList = 4031C48F15655DE000B18135 /* Build configuration list for PBXProject "Screen Blacker" */;
+			buildConfigurationList = 4031C48F15655DE000B18135 /* Build configuration list for PBXProject "Show Mode" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -162,7 +162,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4031C49415655DE000B18135 /* Screen Blacker */,
+				4031C49415655DE000B18135 /* Show Mode */,
 			);
 		};
 /* End PBXProject section */
@@ -298,10 +298,10 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Screen Blacker/Screen Blacker-Prefix.pch";
-				INFOPLIST_FILE = "Screen Blacker/Screen Blacker-Info.plist";
+				GCC_PREFIX_HEADER = "Screen Blacker/Show Mode-Prefix.pch";
+				INFOPLIST_FILE = "Screen Blacker/Show Mode-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.figure53.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Show Mode";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -311,10 +311,10 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Screen Blacker/Screen Blacker-Prefix.pch";
-				INFOPLIST_FILE = "Screen Blacker/Screen Blacker-Info.plist";
+				GCC_PREFIX_HEADER = "Screen Blacker/Show Mode-Prefix.pch";
+				INFOPLIST_FILE = "Screen Blacker/Show Mode-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.figure53.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Show Mode";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4031C48F15655DE000B18135 /* Build configuration list for PBXProject "Screen Blacker" */ = {
+		4031C48F15655DE000B18135 /* Build configuration list for PBXProject "Show Mode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4031C4B115655DE000B18135 /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4031C4B315655DE000B18135 /* Build configuration list for PBXNativeTarget "Screen Blacker" */ = {
+		4031C4B315655DE000B18135 /* Build configuration list for PBXNativeTarget "Show Mode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4031C4B415655DE000B18135 /* Debug */,
