@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		401F816E15C1C44500DC8309 /* ScreenBlacker.icns in Resources */ = {isa = PBXBuildFile; fileRef = 401F816D15C1C44500DC8309 /* ScreenBlacker.icns */; };
 		4031C4A415655DE000B18135 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4031C4A215655DE000B18135 /* InfoPlist.strings */; };
 		4031C4A615655DE000B18135 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4031C4A515655DE000B18135 /* main.m */; };
 		4031C4AA15655DE000B18135 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4031C4A815655DE000B18135 /* Credits.rtf */; };
@@ -22,10 +21,10 @@
 		409F04381565F912008C29DF /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409F04331565F912008C29DF /* IOKit.framework */; };
 		CAC4C5A61D15F722005F3F8C /* switch-off.png in Resources */ = {isa = PBXBuildFile; fileRef = CAC4C5A41D15F722005F3F8C /* switch-off.png */; };
 		CAC4C5A71D15F722005F3F8C /* switch-on.png in Resources */ = {isa = PBXBuildFile; fileRef = CAC4C5A51D15F722005F3F8C /* switch-on.png */; };
+		CAC4C5A91D16F90A005F3F8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAC4C5A81D16F909005F3F8C /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		401F816D15C1C44500DC8309 /* ScreenBlacker.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ScreenBlacker.icns; sourceTree = "<group>"; };
 		4031C49515655DE000B18135 /* Show Mode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Show Mode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4031C4A115655DE000B18135 /* Show Mode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Show Mode-Info.plist"; sourceTree = "<group>"; };
 		4031C4A315655DE000B18135 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -45,6 +44,7 @@
 		409F04331565F912008C29DF /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
 		CAC4C5A41D15F722005F3F8C /* switch-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch-off.png"; sourceTree = "<group>"; };
 		CAC4C5A51D15F722005F3F8C /* switch-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch-on.png"; sourceTree = "<group>"; };
+		CAC4C5A81D16F909005F3F8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 		4031C4A015655DE000B18135 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				401F816D15C1C44500DC8309 /* ScreenBlacker.icns */,
+				CAC4C5A81D16F909005F3F8C /* Images.xcassets */,
 				4031C4B615655F8400B18135 /* black.png */,
 				4031C4A115655DE000B18135 /* Show Mode-Info.plist */,
 				4031C4A215655DE000B18135 /* InfoPlist.strings */,
@@ -151,7 +151,7 @@
 				ORGANIZATIONNAME = "Figure 53";
 			};
 			buildConfigurationList = 4031C48F15655DE000B18135 /* Build configuration list for PBXProject "Show Mode" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -173,11 +173,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4031C4A415655DE000B18135 /* InfoPlist.strings in Resources */,
+				CAC4C5A91D16F90A005F3F8C /* Images.xcassets in Resources */,
 				4031C4AA15655DE000B18135 /* Credits.rtf in Resources */,
 				4031C4B015655DE000B18135 /* MainMenu.xib in Resources */,
 				CAC4C5A71D15F722005F3F8C /* switch-on.png in Resources */,
 				4031C4B715655F8400B18135 /* black.png in Resources */,
-				401F816E15C1C44500DC8309 /* ScreenBlacker.icns in Resources */,
 				CAC4C5A61D15F722005F3F8C /* switch-off.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,12 +296,15 @@
 		4031C4B415655DE000B18135 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Screen Blacker/Show Mode-Prefix.pch";
 				INFOPLIST_FILE = "Screen Blacker/Show Mode-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.figure53.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m5.showmode;
 				PRODUCT_NAME = "Show Mode";
+				VERSIONING_SYSTEM = "apple-generic";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -309,12 +312,15 @@
 		4031C4B515655DE000B18135 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Screen Blacker/Show Mode-Prefix.pch";
 				INFOPLIST_FILE = "Screen Blacker/Show Mode-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.figure53.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.m5.showmode;
 				PRODUCT_NAME = "Show Mode";
+				VERSIONING_SYSTEM = "apple-generic";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

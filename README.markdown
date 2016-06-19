@@ -10,4 +10,7 @@ Show Mode requires Mac OS 10.6 or later.
 
 Show Mode based on Screen Blacker by [Figure 53](http://figure53.com)
 
-Icon made by [Madebyoliver](http://www.flaticon.com/authors/madebyoliver) from [www.flaticon.com](http://www.flaticon.com) 
+Statusicon made by [Madebyoliver](http://www.flaticon.com/authors/madebyoliver) from [www.flaticon.com](http://www.flaticon.com)  
+Appicon made by [Freepik](http://www.freepik.com) from [www.flaticon.com](http://www.flaticon.com)
+ 
+
