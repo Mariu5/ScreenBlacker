@@ -111,7 +111,24 @@
         [_originalURLs setObject:url forKey:[NSNumber numberWithInteger:[screen displayID]]];
         [_originalOptions setObject:options forKey:[NSNumber numberWithInteger:[screen displayID]]];
     }
-    _statusItem.image = [NSImage imageNamed:@"switch-on.png"];
+    
+    // Dark Mode On
+    if (floor(NSAppKitVersionNumber) >= NSAppKitVersionNumber10_10) {
+        CFPreferencesSetValue((CFStringRef)@"AppleInterfaceStyle", @"Dark", kCFPreferencesAnyApplication, kCFPreferencesCurrentUser, kCFPreferencesCurrentHost);
+        dispatch_async(dispatch_get_main_queue(), ^{
+            CFNotificationCenterPostNotification(CFNotificationCenterGetDistributedCenter(), (CFStringRef)@"AppleInterfaceThemeChangedNotification", NULL, NULL, YES);
+        });
+        
+        _statusItem.image = [NSImage imageNamed:@"switch-on-white.png"];
+        
+    } else {
+        
+        _statusItem.image = [NSImage imageNamed:@"switch-on.png"];
+        
+    }
+    
+
+    
 }
 
 - (void)_restoreBackgroundImages
@@ -128,6 +145,15 @@
         }
     }
     _statusItem.image = [NSImage imageNamed:@"switch-off.png"];
+    
+    // Dark Mode Off
+    if (floor(NSAppKitVersionNumber) >= NSAppKitVersionNumber10_10) {
+        CFPreferencesSetValue((CFStringRef)@"AppleInterfaceStyle", NULL, kCFPreferencesAnyApplication, kCFPreferencesCurrentUser, kCFPreferencesCurrentHost);
+        dispatch_async(dispatch_get_main_queue(), ^{
+            CFNotificationCenterPostNotification(CFNotificationCenterGetDistributedCenter(), (CFStringRef)@"AppleInterfaceThemeChangedNotification", NULL, NULL, YES);
+        });
+    }
+    
 }
 
 @end

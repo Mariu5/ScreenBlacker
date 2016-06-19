@@ -22,6 +22,7 @@
 		CAC4C5A61D15F722005F3F8C /* switch-off.png in Resources */ = {isa = PBXBuildFile; fileRef = CAC4C5A41D15F722005F3F8C /* switch-off.png */; };
 		CAC4C5A71D15F722005F3F8C /* switch-on.png in Resources */ = {isa = PBXBuildFile; fileRef = CAC4C5A51D15F722005F3F8C /* switch-on.png */; };
 		CAC4C5A91D16F90A005F3F8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAC4C5A81D16F909005F3F8C /* Images.xcassets */; };
+		CAC4C5AB1D1743FC005F3F8C /* switch-on-white.png in Resources */ = {isa = PBXBuildFile; fileRef = CAC4C5AA1D1743FC005F3F8C /* switch-on-white.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		CAC4C5A41D15F722005F3F8C /* switch-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch-off.png"; sourceTree = "<group>"; };
 		CAC4C5A51D15F722005F3F8C /* switch-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch-on.png"; sourceTree = "<group>"; };
 		CAC4C5A81D16F909005F3F8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CAC4C5AA1D1743FC005F3F8C /* switch-on-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch-on-white.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				4031C4A115655DE000B18135 /* Show Mode-Info.plist */,
 				4031C4A215655DE000B18135 /* InfoPlist.strings */,
 				CAC4C5A41D15F722005F3F8C /* switch-off.png */,
+				CAC4C5AA1D1743FC005F3F8C /* switch-on-white.png */,
 				CAC4C5A51D15F722005F3F8C /* switch-on.png */,
 				4031C4A515655DE000B18135 /* main.m */,
 				4031C4A715655DE000B18135 /* Show Mode-Prefix.pch */,
@@ -172,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAC4C5AB1D1743FC005F3F8C /* switch-on-white.png in Resources */,
 				4031C4A415655DE000B18135 /* InfoPlist.strings in Resources */,
 				CAC4C5A91D16F90A005F3F8C /* Images.xcassets in Resources */,
 				4031C4AA15655DE000B18135 /* Credits.rtf in Resources */,
